@@ -788,32 +788,32 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Creator",
+              "displayText": "Group Bot Resmi💻",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Rest Api's",              
+              "displayText": "Rest Api's ZakYBoT-MD🤖",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Rules",
-"id": 'rules'
+              "displayText": "PERATURAN BY ZAKY💻",
+"id": 'peraturan'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Owner",
+              "displayText": "Owner👤",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "List Command",
+              "displayText": "Button Cmd💻",
 "id": 'command'
             }
           }
@@ -1531,10 +1531,10 @@ break
             break
 				case 'menu':{
 					if(typemenu == 'templateLocation'){
-						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
+						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "Group Bot Resmi💻","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's ZakYBoT-MD🤖","url": `${myweb}`}},{"quickReplyButton": {"displayText": "DONASI🔥","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER👤","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command🌐","id": 'command'}}] )
 							}
 						if(typemenu == 'templateTenor'){
-							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] , {quoted: m})
+							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "Group Bot Resmi💻","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's ZakYBoT-MD🤖","url": `${myweb}`}},{"quickReplyButton": {"displayText": "DONASI🔥","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER👤","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command🌐","id": 'command'}}] , {quoted: m})
 						 }
 						if(typemenu == 'katalog'){
 							alpha.sendKatalog(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
@@ -1543,12 +1543,12 @@ break
 							alpha.sendKatalog2(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
 							}
 						if(typemenu == 'list'){
-							alpha.sendListMenu(m.chat, `╭─⬣「 _*INFO USER*_ 」⬣\n│  *Name* : ${pushname}\n│  *Number* : ${sender.split("@")[0]}\n│  *Status* : ${isCreator? ` Owner️ ${botname}` :`User ${botname}`}\n╰─⬣\n\n╭─⬣「 _*INFO BOT*_ 」⬣\n│ *Prefix* :  ${prefix} \n│ *Name* : ${botname}\n│ *Owner* : ${ownername}\n│ *Mode* : ${alpha.public ? 'Public-Mode' : 'Self-Mode'}\n│ *Runtime* : ${runtime(process.uptime())}\n│ *Lib* : Baileys-Md@4.0.0\n╰─⬣\n\n╭─⬣「 _*INDONESIAN TIME*_ 」⬣\n│ *Wib* : ${time}\n│ *Wita* : ${wita}\n│ *Wit* : ${wit}  \n╰─⬣`, `© ${ownername}`, `Selamat ${salam} ${pushname} ☺️`, `CLICK HERE`, {quoted:fgif})
+							alpha.sendListMenu(m.chat, `╭─⬣「 _*INFO USER*_ 」⬣\n│  *Name* : ${pushname}\n│  *Number* : ${sender.split("@")[0]}\n│  *Status* : ${isCreator? ` Owner️ ${botname}` :`User ${botname}`}\n╰─⬣\n\n╭─⬣「 _*INFO BOT*_ 」⬣\n│ *Prefix* :  ${prefix} \n│ *Name* : ${botname}\n│ *Owner* : ${ownername}\n│ *Mode* : ${alpha.public ? 'Public-Mode' : 'Self-Mode'}\n│ *Runtime* : ${runtime(process.uptime())}\n│ *Lib* : Baileys-Md@4.0.0\n╰─⬣\n\n╭─⬣「 _*INDONESIAN TIME*_ 」⬣\n│ *Wib* : ${time}\n│ *Wita* : ${wita}\n│ *Wit* : ${wit}  \n╰─⬣`, `© ${ownername}`, `Selamat ${salam} ${pushname} ☺️`, `MENU CMD BY ZAKY`, {quoted:fgif})
 						}
 					}
 					break    
 	case 'allmenu':{
-			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "Group Bot Resmi💻","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api ZakYBoT-MD🤖","url": `${myweb}`}},{"quickReplyButton": {"displayText": "DONASI🔥","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER👤","id": 'owner'}},{"quickReplyButton": {"displayText": "PERATURAN BY ZAKY💻","id": 'rules'}}] )
 		}
 	break   
 	case 'infocmd': case'infomenu':{
