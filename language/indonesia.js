@@ -2,17 +2,17 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ Sabar Woi Lagi Loading~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Selesai~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ Error Cok Makanya Jangan Di Spam Tod`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ Link Nya Nggak Work Mohon Ganti Link`
 }
 exports.media = () => {
     return `Silahkan pilih media yang ingin kamu download`
@@ -34,7 +34,7 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ Command ini khusus Owner ZakYBoT`
 }
 
 exports.doneOwner = () => {
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Nggak Bisa Jadikan Dulu Bot Admin Baru Work🤖`
 }
 
 exports.received = (pushname) => {
@@ -86,15 +86,18 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
-Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+saya ${botname}, bot ini adalah Buatan Zaky. 
+Mohon jangan spam bot ya agar tidak terganggu oleh user lain, 
+jika ada yang spam mohon jangan salahkan bot ya karena bot cuma untuk bersenang-senang jadi gunakanlah dengan bijak🙏  
+jika kamu mau masukin bot kedalam gc kamu bisa kok,
+tinggalkan chat owner aja ya kak👤 gratis kok!
+peringatan:jangan telepon bot yah agar tidak terkena bug,sekian terimakasih 🙏
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu ZakYBoT-MD :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -789,7 +792,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ Mhankbarbar
 ├ Nurutomo
 ├ Rashid
-├ ZeeoneOfc
+├ Zaky⚠️
 ├ Penyedia Module
 ╰❒ And All Support
     `
@@ -798,6 +801,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 exports.rules = (prefix) => {
     return `
 *── 「 RULES AND FAQ 」 ──*
+*by:zakybot🤖*
 
 1. Jangan spam bot. 🙅
 Sanksi: *❎ WARN/SOFT BLOCK*
@@ -826,9 +830,9 @@ Sanksi: *PERMANENT BLOCK*
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan ZakYBoT di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan ZakYBoT-MD
 😖🙏
 `
 }
@@ -848,8 +852,8 @@ Goodbye`
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Base : https://github.com/Zaky/ZakYBoT-MD
+Group resmi bot : https://chat.whatsapp.com/FZEid847RlmJWNBMnSyXPI
 `
 }
 exports.tos = (ownernomer) => {
@@ -859,7 +863,7 @@ exports.tos = (ownernomer) => {
 Hai kak ☺️ 
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
 
-Berapapun donasi kalian akan sangat berarti 👍
+Tetapi bot ini masih di gratis kan untuk seluruh user jika kamu mau masukin bot ke gc silahkan hubungi owner terlebih dahulu 👍
 
 Thanks!
 
@@ -1463,7 +1467,7 @@ exports.tqto = () =>{
 ├ Mhankbarbar
 ├ Nurutomo
 ├ Rashid
-├ ZeeoneOfc
+├ Zaky⚠️
 ├ Penyedia Module
 ╰❒ And All Support
 `
